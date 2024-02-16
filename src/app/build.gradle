@@ -5,10 +5,10 @@ plugins {
 android {
     signingConfigs {
         debug {
-            storeFile file('/home/atul/StudioProjects/keys/music_player_lite.jks')
-            storePassword 'musicplayerlite'
-            keyAlias 'musicplayerlite'
-            keyPassword 'musicplayerlite'
+            storeFile file('/Users/m2dev/.android/debug.keystore')
+            storePassword 'android'
+            keyAlias 'androiddebugkey'
+            keyPassword 'android'
         }
     }
     compileSdk 33
